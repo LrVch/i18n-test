@@ -27,7 +27,7 @@ i18n
       backendOptions: [{
         /* below options */
       }, {
-        loadPath: '/locales/{{lng}}/{{ns}}.json' // xhr load path for my own fallback
+        // loadPath: '/locales/{{lng}}/{{ns}}.json' // xhr load path for my own fallback
       }]
     }
   });

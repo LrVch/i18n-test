@@ -19,18 +19,18 @@ const Page = () => {
         <Block>
           <Trans i18nKey="description.part1">
             To get started, edit <code>src/App.js</code> and save to reload.
-        </Trans>
+          </Trans>
         </Block>
         <Block>
           <Trans i18nKey="description.part2">
             To get started, edit <strong>src/App.js</strong> and save to reload.
-        </Trans>
+          </Trans>
         </Block>
         <button onClick={() => changeLanguage('de')}>de</button>
         <button onClick={() => changeLanguage('en')}>en</button>
         <button onClick={() => changeLanguage('ru')}>ru</button>
       </div>
-      <div>{t('description.part2')}</div>
+      <div>{t('description.part3', 'Some default value for missing translation')}</div>
     </div>
   );
 }
